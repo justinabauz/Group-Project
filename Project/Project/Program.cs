@@ -9,10 +9,11 @@ namespace Project
             double plotas = Math.PI * Math.Pow(6371, 2);
             double turis = 4/3 * Math.PI * Math.Pow(6371, 3);
             double izambine = Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2));
+            double kvPlotas = 0;
 
 
             Console.WriteLine("Zemes rutulio plotas: {0}", plotas);
-            Console.WriteLine("Zemes rutulio turid: {0}", turis);
+            Console.WriteLine("Zemes rutulio turis: {0}", turis);
             Console.WriteLine("Staciojo trikampio izambines ilgis: {0}", izambine);
 
             Console.WriteLine("Kintamuju suma: {0}", plotas + turis + izambine);
