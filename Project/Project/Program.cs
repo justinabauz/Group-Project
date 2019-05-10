@@ -7,8 +7,8 @@ namespace Project
         public static void Main(string[] args)
         {
             double plotas = Math.PI * Math.Pow(6371, 2);
-            double turis = 0;
-            double izambine = 0;
+            double turis = 4/3 * Math.PI * Math.Pow(6371, 3);
+            double izambine = Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2));
 
 
             Console.WriteLine("Kintamuju suma: {0}", plotas + turis + izambine);
