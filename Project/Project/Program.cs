@@ -15,6 +15,7 @@ namespace Project
             Console.WriteLine("Zemes rutulio plotas: {0}", plotas);
             Console.WriteLine("Zemes rutulio turis: {0}", turis);
             Console.WriteLine("Staciojo trikampio izambines ilgis: {0}", izambine);
+            Console.WriteLine("Kvadrato plotas:{0}", kvPlotas);
 
             Console.WriteLine("Kintamuju suma: {0}", plotas + turis + izambine);
             Console.WriteLine("Kintamuju vidurkis: {0}", (plotas + turis + izambine) / 3);
