@@ -10,6 +10,7 @@ namespace Project
             double turis = 4/3 * Math.PI * Math.Pow(6371, 3);
             double izambine = Math.Sqrt(Math.Pow(10, 2) + Math.Pow(15, 2));
             double kvPlotas = Math.Pow(10,2);
+            double a = 10;
 
 
             Console.WriteLine("Zemes rutulio plotas: {0}", plotas);
